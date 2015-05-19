@@ -44,11 +44,11 @@
 	color:#F2F2F2;
 }
 .iw-cm-arrow-right {
-	width: 0; 
-	height: 0; 
+	width: 0;
+	height: 0;
 	border-top: 5px solid transparent;
-	border-bottom: 5px solid transparent; 
-	border-left:5px solid #333333; 
+	border-bottom: 5px solid transparent;
+	border-left:5px solid #333333;
 	position:absolute;
 	right:3px;
 	top:50%;
@@ -62,4 +62,18 @@
 	top:3px;
 	position:absolute;
 	}
+
+
+/** Custom class added **/
+.rtcontext-box {
+	display: inline-block;
+	padding: 14px 20px;
+	line-height: 16px;
+	border-radius: 4px;
+	border: 1px solid #2ba6cb;
+	box-shadow: 5px 5px 8px #CCC;
+	background: #FFF;
+	height: auto !important;
+	width: auto !important;
+}
 /*context menu css end */

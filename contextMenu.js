@@ -756,7 +756,8 @@
                 option.triggerOn = 'contextmenu';
             }
 
-            if ($.inArray(option.triggerOn, ['hover', 'mouseenter', 'mouseover', 'mouseleave', 'mouseout', 'focusin', 'focusout']) != -1) {
+            //Task detail open at the end of task bar fix
+            if ($.inArray(option.triggerOn, [ 'mouseenter', 'mouseover', 'mouseleave', 'mouseout', 'focusin', 'focusout']) != -1) {
                 option.displayAround = 'trigger';
             }
             return option;
